@@ -9,7 +9,7 @@ versions:
 
 ## About the structure of an article
 
-Within an article, there is a standard order of content sections. Every article contains required elements. Articles will also contain conditional elements and optional elements outlined in content design or creation. See the guidelines below for more details.
+Within an article, there is a standard order of content sections. Every article contains the required elements. Articles will also contain conditional elements and optional elements outlined in content design or creation. See the guidelines below for more details.
 
 ![Screenshot of article with title, intro, permissions, product callout, conceptual section, procedural section, and table of contents labeled.](/assets/images/contributing/illustration-of-article-contents.png)
 
@@ -93,7 +93,7 @@ Occasionally, it's relevant to mention required permissions in conceptual conten
 - When a single set of permissions applies to all procedures in an article, use the [permissions frontmatter](https://github.com/github/docs/tree/main/content#permissions).
 - When an article contains multiple procedures and different permissions apply, include a separate permissions statement under each relevant header, before each procedure.
 - Don't include permissions in an article’s intro.
-- Roles exist at different levels. Refer only to the role at the same level as the action. For example, you need admin access to a repository (repository-level role) to configure protected branches. You can get admin access to a repository by being an organization owner (organization-level role), but the repository-level role is what actually governs your ability to take the action, so that is the only role that should be mentioned in the permissions statement.
+- Roles exist at different levels. Refer only to the role at the same level as the action. For example, you need admin access to a repository (repository-level role) to configure protected branches. You can get admin access to a repository by being an organization owner (organization-level role), but the repository-level role is what actually governs your ability to take action, so that is the only role that should be mentioned in the permissions statement.
 - Language to use in a permissions statement:
   - [ACCOUNT ROLE] can [ACTION].
   - People with [FEATURE ROLE] access for a [FEATURE] can [ACTION].
@@ -121,7 +121,7 @@ Referential content provides structured information related to actively using a 
 
 ## Prerequisites
 
-Prerequisites are information that people need to know before proceeding with a procedure, so that they can prepare everything they need before starting the task.
+Prerequisites are information that people need to know before proceeding with a procedure so that they can prepare everything they need before starting the task.
 
 ### How to write prerequisites
 
@@ -136,7 +136,7 @@ Prerequisites are information that people need to know before proceeding with a 
 
 - When using a separate section, use a header called `Prerequisites`
 
-### Examples of articles with prerequisites sections
+### Examples of articles with prerequisite sections
 
 - [AUTOTITLE](/enterprise-server@latest/admin/installation/installing-github-enterprise-server-on-aws)
 - [AUTOTITLE](/enterprise-server@latest/admin/configuration/enabling-subdomain-isolation)
